@@ -20,7 +20,7 @@ ZJUMilCubesHelper 是一个用于与 浙江大学 百万立方未来世界 课�
 ### 使用用户名密码登录
 
 ```python
-from milcubes import MilCubesSession
+from MilCubes import MilCubesSession
 
 # 创建会话
 session = MilCubesSession.from_username_password('your_username', 'your_password')
@@ -34,7 +34,7 @@ for project in projects:
 ### 使用 Cookies 登录
 
 ```python
-from milcubes import MilCubesSession
+from MilCubes import MilCubesSession
 
 # 从 JSON 文件加载 cookies
 with open('cookies.json', 'r', encoding='utf-8') as f:
