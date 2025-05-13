@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 """
 MilCubes API 客户端核心模块
 提供与 MilCubes 平台交互的类和方法

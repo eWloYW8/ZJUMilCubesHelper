@@ -14,7 +14,10 @@ ZJUMilCubesHelper 是一个用于与 浙江大学 百万立方未来世界 课�
 
 ## 安装
 
-本项目暂无上传到 PyPI 的包，你可以直接从 GitHub 下载源码并使用
+前往 [release](https://github.com/eWloYW8/ZJUMilCubesHelper/releases) 下载可执行文件
+
+
+[![Build and Release with Nuitka](https://github.com/eWloYW8/ZJUMilCubesHelper/actions/workflows/release.yml/badge.svg)](https://github.com/eWloYW8/ZJUMilCubesHelper/actions/workflows/release.yml)
 
 ## 快速开始
 
@@ -65,6 +68,8 @@ print(f"文件已上传: {url}")
 ## 命令行工具
 
 ZJUMilCubesHelper 提供了便捷的命令行工具：
+
+如果你下载了 release，可将`python ./MilCubes/cli.py`替换为对应的可执行文件 
 
 ### 登录
 
