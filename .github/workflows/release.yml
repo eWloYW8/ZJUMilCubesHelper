@@ -37,21 +37,21 @@ jobs:
 
     - name: Build with Nuitka
       run: |
-        python -m nuitka --standalone --onefile --output-dir=dist --show-progress --assume-yes-for-downloads ./MilCubes/api.py
+        python -m nuitka --standalone --onefile --output-dir=dist --show-progress --assume-yes-for-downloads ./MilCubes/cli.py
 
     - name: Rename binary on Linux
       if: matrix.os == 'ubuntu-22.04'
       shell: bash
       run: |
         mkdir bin
-        mv dist/api.bin bin/MilCubesHelper-${{ matrix.platform }}-${{ matrix.arch }}
+        mv dist/cli.bin bin/MilCubesHelper-${{ matrix.platform }}-${{ matrix.arch }}
 
     - name: Rename binary on Windows
       if: matrix.os == 'windows-latest'
       shell: pwsh
       run: |
         mkdir bin
-        move dist\api.exe bin\MilCubesHelper-${{ matrix.platform }}-${{ matrix.arch }}.exe
+        move dist\cli.exe bin\MilCubesHelper-${{ matrix.platform }}-${{ matrix.arch }}.exe
 
     - name: Upload binary artifacts
       uses: actions/upload-artifact@v4

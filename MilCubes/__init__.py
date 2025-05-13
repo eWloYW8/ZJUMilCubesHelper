@@ -7,5 +7,5 @@ ZJUMilCubes API 客户端
 
 from .api import MilCubesSession, Project, ProjectCollection
 
-__version__ = "1.0.0"
+__version__ = "0.1.1"
 __all__ = ["MilCubesSession", "Project", "ProjectCollection"]
