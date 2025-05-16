@@ -25,9 +25,9 @@ ZJUMilCubesHelper 是一个用于与 浙江大学 百万立方未来世界 课�
 
 可选装（需要 Tampermonkey 等脚本管理器）：
 
-[启用复制和选中](https://github.com/eWloYW8/ZJUMilCubesHelper/raw/refs/heads/master/Userscripts/MilCubeCopy.user.js)
+[启用复制和选中](https://github.com/eWloYW8/ZJUMilCubesHelper/raw/refs/heads/main/Userscripts/MilCubeCopy.user.js)
 
-[关闭预加载动画](https://github.com/eWloYW8/ZJUMilCubesHelper/raw/refs/heads/master/Userscripts/MilCubeDisablePreload.user.js)
+[关闭预加载动画](https://github.com/eWloYW8/ZJUMilCubesHelper/raw/refs/heads/main/Userscripts/MilCubeDisablePreload.user.js)
 
 ## 快速开始
 
