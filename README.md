@@ -19,6 +19,16 @@ ZJUMilCubesHelper 是一个用于与 浙江大学 百万立方未来世界 课�
 
 [![Build and Release with Nuitka](https://github.com/eWloYW8/ZJUMilCubesHelper/actions/workflows/release.yml/badge.svg)](https://github.com/eWloYW8/ZJUMilCubesHelper/actions/workflows/release.yml)
 
+### 推荐安装：
+
+本 repo 附带了两个 Userscript 脚本（位于 Userscripts 目录），可以提升百万立方网页平台的使用体验。
+
+可选装（需要 Tampermonkey 等脚本管理器）：
+
+[启用复制和选中](https://github.com/eWloYW8/ZJUMilCubesHelper/raw/refs/heads/master/Userscripts/MilCubeCopy.user.js)
+
+[关闭预加载动画](https://github.com/eWloYW8/ZJUMilCubesHelper/raw/refs/heads/master/Userscripts/MilCubeDisablePreload.user.js)
+
 ## 快速开始
 
 ### 使用用户名密码登录
